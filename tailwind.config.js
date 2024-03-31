@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Prompt', 'sans-serif'],
+      'display': ['Dela Gothic One','sans-serif'],
+    },
   },
   plugins: [],
 }

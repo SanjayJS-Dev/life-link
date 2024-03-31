@@ -1,10 +1,8 @@
 import * as React from 'react';
-import './App.css'
+import HomePage from './Pages/HomePage';
 
-export default function HomePage() {
+export default function App() {
   return (
-    <React.Fragment>
-      
-    </React.Fragment>
+    <HomePage/>
   );
 }
