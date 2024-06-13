@@ -8,7 +8,6 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
-        <Route path="/nopage" element={<NoPage/>}/>
         <Route path="*" element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>

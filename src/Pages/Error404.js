@@ -4,6 +4,6 @@ export default function NoPage() {
     document.title = "Error 404 :: LifeLink"
 
     return(
-        <div>No page found</div>
+        <div><center><br/><br/><h1>Error 404 :: No Page Found!</h1></center></div>
     )
 }
